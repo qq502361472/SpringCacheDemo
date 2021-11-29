@@ -1,0 +1,11 @@
+server:
+  port: 80
+spring:
+  cache:
+    type: redis
+    redis:
+      time-to-live: 360000
+      cache-null-values: true
+  redis:
+    host: 192.168.56.102
+    port: 6379
